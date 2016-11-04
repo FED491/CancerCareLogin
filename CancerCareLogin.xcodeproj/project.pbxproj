@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105B0C1B1DCCFB7E0014F671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C1A1DCCFB7E0014F671 /* AppDelegate.swift */; };
+		105B0C1D1DCCFB7E0014F671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C1C1DCCFB7E0014F671 /* ViewController.swift */; };
+		105B0C201DCCFB7E0014F671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B0C1E1DCCFB7E0014F671 /* Main.storyboard */; };
+		105B0C231DCCFB7E0014F671 /* CancerCareLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C211DCCFB7E0014F671 /* CancerCareLogin.xcdatamodeld */; };
+		105B0C251DCCFB7E0014F671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105B0C241DCCFB7E0014F671 /* Assets.xcassets */; };
+		105B0C281DCCFB7E0014F671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B0C261DCCFB7E0014F671 /* LaunchScreen.storyboard */; };
+		105B0C331DCCFB7E0014F671 /* CancerCareLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C321DCCFB7E0014F671 /* CancerCareLoginTests.swift */; };
+		105B0C3E1DCCFB7E0014F671 /* CancerCareLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C3D1DCCFB7E0014F671 /* CancerCareLoginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		105B0C2F1DCCFB7E0014F671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105B0C0F1DCCFB7E0014F671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105B0C161DCCFB7E0014F671;
+			remoteInfo = CancerCareLogin;
+		};
+		105B0C3A1DCCFB7E0014F671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105B0C0F1DCCFB7E0014F671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105B0C161DCCFB7E0014F671;
+			remoteInfo = CancerCareLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		105B0C171DCCFB7E0014F671 /* CancerCareLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CancerCareLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		105B0C1A1DCCFB7E0014F671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		105B0C1C1DCCFB7E0014F671 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		105B0C1F1DCCFB7E0014F671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		105B0C221DCCFB7E0014F671 /* CancerCareLogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CancerCareLogin.xcdatamodel; sourceTree = "<group>"; };
+		105B0C241DCCFB7E0014F671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		105B0C271DCCFB7E0014F671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		105B0C291DCCFB7E0014F671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105B0C2E1DCCFB7E0014F671 /* CancerCareLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CancerCareLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		105B0C321DCCFB7E0014F671 /* CancerCareLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancerCareLoginTests.swift; sourceTree = "<group>"; };
+		105B0C341DCCFB7E0014F671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105B0C391DCCFB7E0014F671 /* CancerCareLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CancerCareLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		105B0C3D1DCCFB7E0014F671 /* CancerCareLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancerCareLoginUITests.swift; sourceTree = "<group>"; };
+		105B0C3F1DCCFB7E0014F671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		105B0C141DCCFB7E0014F671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B0C2B1DCCFB7E0014F671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B0C361DCCFB7E0014F671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105B0C0E1DCCFB7E0014F671 = {
+			isa = PBXGroup;
+			children = (
+				105B0C191DCCFB7E0014F671 /* CancerCareLogin */,
+				105B0C311DCCFB7E0014F671 /* CancerCareLoginTests */,
+				105B0C3C1DCCFB7E0014F671 /* CancerCareLoginUITests */,
+				105B0C181DCCFB7E0014F671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		105B0C181DCCFB7E0014F671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				105B0C171DCCFB7E0014F671 /* CancerCareLogin.app */,
+				105B0C2E1DCCFB7E0014F671 /* CancerCareLoginTests.xctest */,
+				105B0C391DCCFB7E0014F671 /* CancerCareLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		105B0C191DCCFB7E0014F671 /* CancerCareLogin */ = {
+			isa = PBXGroup;
+			children = (
+				105B0C1A1DCCFB7E0014F671 /* AppDelegate.swift */,
+				105B0C1C1DCCFB7E0014F671 /* ViewController.swift */,
+				105B0C1E1DCCFB7E0014F671 /* Main.storyboard */,
+				105B0C241DCCFB7E0014F671 /* Assets.xcassets */,
+				105B0C261DCCFB7E0014F671 /* LaunchScreen.storyboard */,
+				105B0C291DCCFB7E0014F671 /* Info.plist */,
+				105B0C211DCCFB7E0014F671 /* CancerCareLogin.xcdatamodeld */,
+			);
+			path = CancerCareLogin;
+			sourceTree = "<group>";
+		};
+		105B0C311DCCFB7E0014F671 /* CancerCareLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				105B0C321DCCFB7E0014F671 /* CancerCareLoginTests.swift */,
+				105B0C341DCCFB7E0014F671 /* Info.plist */,
+			);
+			path = CancerCareLoginTests;
+			sourceTree = "<group>";
+		};
+		105B0C3C1DCCFB7E0014F671 /* CancerCareLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				105B0C3D1DCCFB7E0014F671 /* CancerCareLoginUITests.swift */,
+				105B0C3F1DCCFB7E0014F671 /* Info.plist */,
+			);
+			path = CancerCareLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		105B0C161DCCFB7E0014F671 /* CancerCareLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105B0C421DCCFB7E0014F671 /* Build configuration list for PBXNativeTarget "CancerCareLogin" */;
+			buildPhases = (
+				105B0C131DCCFB7E0014F671 /* Sources */,
+				105B0C141DCCFB7E0014F671 /* Frameworks */,
+				105B0C151DCCFB7E0014F671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CancerCareLogin;
+			productName = CancerCareLogin;
+			productReference = 105B0C171DCCFB7E0014F671 /* CancerCareLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		105B0C2D1DCCFB7E0014F671 /* CancerCareLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105B0C451DCCFB7E0014F671 /* Build configuration list for PBXNativeTarget "CancerCareLoginTests" */;
+			buildPhases = (
+				105B0C2A1DCCFB7E0014F671 /* Sources */,
+				105B0C2B1DCCFB7E0014F671 /* Frameworks */,
+				105B0C2C1DCCFB7E0014F671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105B0C301DCCFB7E0014F671 /* PBXTargetDependency */,
+			);
+			name = CancerCareLoginTests;
+			productName = CancerCareLoginTests;
+			productReference = 105B0C2E1DCCFB7E0014F671 /* CancerCareLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		105B0C381DCCFB7E0014F671 /* CancerCareLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105B0C481DCCFB7E0014F671 /* Build configuration list for PBXNativeTarget "CancerCareLoginUITests" */;
+			buildPhases = (
+				105B0C351DCCFB7E0014F671 /* Sources */,
+				105B0C361DCCFB7E0014F671 /* Frameworks */,
+				105B0C371DCCFB7E0014F671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105B0C3B1DCCFB7E0014F671 /* PBXTargetDependency */,
+			);
+			name = CancerCareLoginUITests;
+			productName = CancerCareLoginUITests;
+			productReference = 105B0C391DCCFB7E0014F671 /* CancerCareLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		105B0C0F1DCCFB7E0014F671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FED;
+				TargetAttributes = {
+					105B0C161DCCFB7E0014F671 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					105B0C2D1DCCFB7E0014F671 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 105B0C161DCCFB7E0014F671;
+					};
+					105B0C381DCCFB7E0014F671 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 105B0C161DCCFB7E0014F671;
+					};
+				};
+			};
+			buildConfigurationList = 105B0C121DCCFB7E0014F671 /* Build configuration list for PBXProject "CancerCareLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 105B0C0E1DCCFB7E0014F671;
+			productRefGroup = 105B0C181DCCFB7E0014F671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				105B0C161DCCFB7E0014F671 /* CancerCareLogin */,
+				105B0C2D1DCCFB7E0014F671 /* CancerCareLoginTests */,
+				105B0C381DCCFB7E0014F671 /* CancerCareLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		105B0C151DCCFB7E0014F671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B0C281DCCFB7E0014F671 /* LaunchScreen.storyboard in Resources */,
+				105B0C251DCCFB7E0014F671 /* Assets.xcassets in Resources */,
+				105B0C201DCCFB7E0014F671 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B0C2C1DCCFB7E0014F671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B0C371DCCFB7E0014F671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		105B0C131DCCFB7E0014F671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B0C1D1DCCFB7E0014F671 /* ViewController.swift in Sources */,
+				105B0C1B1DCCFB7E0014F671 /* AppDelegate.swift in Sources */,
+				105B0C231DCCFB7E0014F671 /* CancerCareLogin.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B0C2A1DCCFB7E0014F671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B0C331DCCFB7E0014F671 /* CancerCareLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B0C351DCCFB7E0014F671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B0C3E1DCCFB7E0014F671 /* CancerCareLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		105B0C301DCCFB7E0014F671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105B0C161DCCFB7E0014F671 /* CancerCareLogin */;
+			targetProxy = 105B0C2F1DCCFB7E0014F671 /* PBXContainerItemProxy */;
+		};
+		105B0C3B1DCCFB7E0014F671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105B0C161DCCFB7E0014F671 /* CancerCareLogin */;
+			targetProxy = 105B0C3A1DCCFB7E0014F671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		105B0C1E1DCCFB7E0014F671 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105B0C1F1DCCFB7E0014F671 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		105B0C261DCCFB7E0014F671 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105B0C271DCCFB7E0014F671 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		105B0C401DCCFB7E0014F671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		105B0C411DCCFB7E0014F671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		105B0C431DCCFB7E0014F671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CancerCareLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Damla.CancerCareLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		105B0C441DCCFB7E0014F671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CancerCareLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Damla.CancerCareLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		105B0C461DCCFB7E0014F671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CancerCareLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Damla.CancerCareLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CancerCareLogin.app/CancerCareLogin";
+			};
+			name = Debug;
+		};
+		105B0C471DCCFB7E0014F671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CancerCareLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Damla.CancerCareLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CancerCareLogin.app/CancerCareLogin";
+			};
+			name = Release;
+		};
+		105B0C491DCCFB7E0014F671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CancerCareLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Damla.CancerCareLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CancerCareLogin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		105B0C4A1DCCFB7E0014F671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CancerCareLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Damla.CancerCareLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CancerCareLogin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		105B0C121DCCFB7E0014F671 /* Build configuration list for PBXProject "CancerCareLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105B0C401DCCFB7E0014F671 /* Debug */,
+				105B0C411DCCFB7E0014F671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105B0C421DCCFB7E0014F671 /* Build configuration list for PBXNativeTarget "CancerCareLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105B0C431DCCFB7E0014F671 /* Debug */,
+				105B0C441DCCFB7E0014F671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		105B0C451DCCFB7E0014F671 /* Build configuration list for PBXNativeTarget "CancerCareLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105B0C461DCCFB7E0014F671 /* Debug */,
+				105B0C471DCCFB7E0014F671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		105B0C481DCCFB7E0014F671 /* Build configuration list for PBXNativeTarget "CancerCareLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105B0C491DCCFB7E0014F671 /* Debug */,
+				105B0C4A1DCCFB7E0014F671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		105B0C211DCCFB7E0014F671 /* CancerCareLogin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				105B0C221DCCFB7E0014F671 /* CancerCareLogin.xcdatamodel */,
+			);
+			currentVersion = 105B0C221DCCFB7E0014F671 /* CancerCareLogin.xcdatamodel */;
+			path = CancerCareLogin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 105B0C0F1DCCFB7E0014F671 /* Project object */;
+}
